@@ -1,1 +1,0 @@
-# friedmannschmuck.ch
