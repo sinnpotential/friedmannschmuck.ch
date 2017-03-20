@@ -7,12 +7,11 @@ media_folder: images/uploads
 
 collections:
     - name: jewelry 
-      slug: {{name}}
       label: Schmuck
       folder: _jewelry
       create: true
       fields:
           - label: Name
-            name: name
+            name: title
           - label: Beschreibung
             name: description
