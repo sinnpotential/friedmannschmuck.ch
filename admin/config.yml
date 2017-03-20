@@ -6,9 +6,10 @@ backend:
 media_folder: images/uploads
 
 collections:
-    - name: 'jewelry' 
-      label: 'Schmuck'
-      folder: '_jewelry'
+    - name: jewelry 
+      slug: {{name}}
+      label: Schmuck
+      folder: _jewelry
       create: true
       fields:
           - label: Name
