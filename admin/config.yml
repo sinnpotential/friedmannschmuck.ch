@@ -1,0 +1,15 @@
+backend:
+    name: github
+    repo: sinnpotential/friedmannschmuck.ch
+    branch: master
+
+collections:
+    - name: 'jewelry' 
+      label: 'Schmuck'
+      folder: '_jewelry'
+      create: true
+      fields:
+          - label: Name
+            name: name
+          - label: Beschreibung
+            name: description
